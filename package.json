@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "env-cmd -f .env node index.js",
+    "start": "node index.js",
     "develop": "env-cmd -f .env nodemon index.js"
   },
   "keywords": [],
@@ -17,7 +17,9 @@
     "graphql": "^15.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.11",
-    "nodemon": "^2.0.7",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
     "env-cmd": "^10.1.0"
   }
 }
