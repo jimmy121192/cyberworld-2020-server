@@ -15,7 +15,7 @@ const server = new ApolloServer({
 
 const http = require("http");
 setInterval(function() {
-    http.get("https://cyberworld-2020.herokuapp.com/");
+    http.get("http://cyberworld-2020.herokuapp.com/");
 }, 300000); // every 5 minutes (300000)
 
 
